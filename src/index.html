@@ -6,9 +6,67 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!-- barra rosada del top-->
+    <div id="barra" class="barra" name="barra">
+       <header id="titulo" class="titulo"> 
+         <!-- logo de la marca -->
+         <img src="logo.jpeg" alt="Logo" id="logo" class="logo">
+       </header>
+    </div>
+    <!-- logo de webpay -->
+    <div id="webpay" ><img src="C:\Users\lidia\OneDrive\Escritorio\Repositorio\imagenes\webpay-desktop-logo_color.svg" alt="webpay" id="webpay" class="webpay" >
+    </div>
+    
+   <main>
+      <!-- Formulario de datos -->
+    <fieldset class="recuadro">
+      <legend class="topic"><strong>Ingrese los datos de su tarjeta</strong></legend>
+       <form class="formulario">
+          <!-- Tarjeta -->
+        <div class="grup"> 
+        <label for="card">Tarjeta de crédito</label>
+        <input type="number" name="card" required= "" id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="3" autofocus>
+        </div>
+          <!-- Nombre-->
+        <div class="grup"> <label for="name">Nombre y apellidos</label>
+         <input type="name" id="name" name="name" required = "" autocomplete="off"  placeholder="Nombre y apellido">
+          <!-- Fecha de expiracion -->
+        <div class="grup1"><label for="date">Fecha de expiración</label>
+        <input type="month" value="yyyy-MM" id="date" required = "" autocomplete="off">
+        </div>
+
+        <div> <!-- CVV-->
+            <label for="cvv">CVV</label> 
+            <input type="number" name="cvv" required= "" id="cvv" autocomplete="off" placeholder="XXX" maxlength="3">
+             <!-- Cuotas -->
+          <div><label for="coutas">Cuotas</label>
+            <select id="cuotas" name="cars" required = "" autocomplete="off">
+              <option disabled selected>Cuota</option>
+              <option value="1cuota">1 Cuota</option>
+              <option value="2cuota">2 Cuota</option>
+              <option value="3cuota">3 Cuota</option>
+              <option value="6cuota">6 Cuota</option>
+              <option value="12cuota">12 Cuota</option>
+              <option value="24cuota">24 Cuota</option>
+              <i class="fas fa-angle-down"></i> 
+            </select></div>  
+       </div><br>
+      <div><input type="submit" value="Pagar" class="pagar"></div>
+      </form>
+
+    </fieldset>
+    </main>
+    <footer> 
+      <div class="tarjetas">
+        <img src="american.svg" alt="american" class="american">
+        <img src="dinners.svg" alt="dinners" class="dinners">
+        <img src="magna.svg" alt="magna" class="magna">
+        <img src="master.svg" alt="master" class="master">
+        <img src="visa.svg" alt="visa" class="visa">
+
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+ 
