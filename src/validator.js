@@ -1,5 +1,5 @@
 const validator ={
-  isValid: function(cardNumber) {
+  isValid: function validar (cardNumber) {
    let arrayNumeros = new Array ();
    let x = 0;
    let total= 0;
@@ -41,7 +41,7 @@ const validator ={
     return false;
   }
  },
- maskify: function(cardNumber) { 
+ maskify: function marcar(cardNumber) { 
   let numerosEnteros = new Array(16);
   let x = 0;
   
@@ -51,13 +51,24 @@ const validator ={
     let cardNumberfinal = 0;
     numerosEnteros[x] = cardNumber[i];
     cardNumberfinal=  cardNumber.slice(-4);
-    cardnumberinicial = cardNumber.slice(0, -4); 
+    cardnumberinicial = cardNumber.slice(0, -4);
+    cardnumberinicial = cardnumberinicial.replace(/1/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/2/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/3/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/4/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/5/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/6/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/7/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/8/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/9/gi, "#");
+    cardnumberinicial = cardnumberinicial.replace(/0/gi, "#");
     //cardnumberinicial = cardNumber.replace("1","2", "3","4", "5", "6", "7", "8","9", "0", "#");
     cardNumber= cardnumberinicial.concat(cardNumberfinal);
 
   console.log("muestra 4 finales " + cardNumberfinal + "muestra de los restantes"+ cardnumberinicial);
   console.log("el numero es " + cardNumber);
-  document.getElementById("card").innerHTML = cardNumber;
+  document.getElementById("card").value = cardNumber;
+  document.getElementById("cardNumber1").innerHTML = cardNumber;
  }
  }
 }

@@ -28,7 +28,7 @@
         
         <div>
           <label for="card">Tarjeta de crédito</label>
-          <input type="number" name="card" required= "" id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="3" autofocus>
+          <input type="text" name="card" required= "" id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="16" autofocus>
         </div>
           <!-- Nombre-->
          
@@ -56,10 +56,11 @@
               <i class="fas fa-angle-down"></i> 
             </select></div>  
        </div><br>
-      <div><input type="submit" value="Pagar" class="pagar" id="pagar"></div>
+      <div> <button type="button"  class="pagar" id="pagar"> Pagar</button></div>
       <h1 id="demo" class="demo"> La tarjeta es: </h1>
+      <h2 id="cardNumber1" class="cardNumber1">Numero de la tarjeta</h2>
       </form>
-
+      
     </fieldset>
     </main>
     <footer> 

@@ -10,4 +10,5 @@ function getData(){
  validator.maskify(cardNumber);
 
 }
+
 document.getElementById("pagar").onclick = getData;
