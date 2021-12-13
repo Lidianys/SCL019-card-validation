@@ -6,31 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- barra rosada del top-->
-    <div id="barra" class="barra" name="barra">
+    
        <header id="titulo" class="titulo"> 
+         <!-- barra rosada del top-->
+    <div id="barra" class="barra" name="barra">
          <!-- logo de la marca -->
          <img src="logo.jpeg" alt="Logo" id="logo" class="logo">
        </header>
     </div>
     <!-- logo de webpay -->
-    <div id="webpay" ><img src="C:\Users\lidia\OneDrive\Escritorio\Repositorio\imagenes\webpay-desktop-logo_color.svg" alt="webpay" id="webpay" class="webpay" >
+    <div id="webpay" ><img src="webpay.png" alt="webpay"  class="webpay" >
     </div>
     
    <main>
-     <h1 class="probar" id="probar">probar</h1>
       <!-- Formulario de datos -->
-    <fieldset class="recuadro">
+    <fieldset class="recuadro"> 
       <legend class="topic"><strong>Ingrese los datos de su tarjeta</strong></legend>
        <form class="formulario">
           <!-- Tarjeta -->
-        <div class="grup"> 
-        <label for="card">Tarjeta de crédito</label>
-        <input type="number" name="card" required= "" id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="3" autofocus>
+         
+        
+        <div>
+          <label for="card">Tarjeta de crédito</label>
+          <input type="number" name="card" required= "" id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="3" autofocus>
         </div>
           <!-- Nombre-->
-        <div class="grup"> <label for="name">Nombre y apellidos</label>
-         <input type="name" id="name" name="name" required = "" autocomplete="off"  placeholder="Nombre y apellido">
+         
+         <div>
+          <label for="name">Nombre y apellidos</label> 
+          <input type="name" id="name" name="name" required = "" autocomplete="off"  placeholder="Nombre y apellido"></div>
           <!-- Fecha de expiracion -->
         <div class="grup1"><label for="date">Fecha de expiración</label>
         <input type="month" id="date" required = "" autocomplete="off">
@@ -53,6 +57,7 @@
             </select></div>  
        </div><br>
       <div><input type="submit" value="Pagar" class="pagar" id="pagar"></div>
+      <h1 id="demo" class="demo"> La tarjeta es: </h1>
       </form>
 
     </fieldset>
