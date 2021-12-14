@@ -28,24 +28,23 @@
         
         <div>
           <label for="card">Tarjeta de crédito</label>
-          <input type="text" name="card" required= "" id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="16" autofocus>
+          <input type="text" name="card" required id="card" autocomplete="off" placeholder="XXXX XXXX XXXX XXXX" maxlength="16" autofocus pattern="[0-9]+">
         </div>
           <!-- Nombre-->
-         
          <div>
           <label for="name">Nombre y apellidos</label> 
-          <input type="name" id="name" name="name" required = "" autocomplete="off"  placeholder="Nombre y apellido"></div>
+          <input type="name" id="name" name="name" required  autocomplete="off"  placeholder="Nombre y apellido"></div>
           <!-- Fecha de expiracion -->
         <div class="grup1"><label for="date">Fecha de expiración</label>
-        <input type="month" id="date" required = "" autocomplete="off">
+        <input type="month" id="date" required  autocomplete="off">
         </div>
 
         <div> <!-- CVV-->
             <label for="cvv">CVV</label> 
-            <input type="number" name="cvv" required= "" id="cvv" autocomplete="off" placeholder="XXX" maxlength="3">
+            <input type="number" name="cvv" required id="cvv" autocomplete="off" placeholder="XXX" maxlength="3">
              <!-- Cuotas -->
           <div><label for="coutas">Cuotas</label>
-            <select id="cuotas" name="cars" required = "" autocomplete="off">
+            <select id="cuotas" name="cars" required   autocomplete="off">
               <option disabled selected>Cuota</option>
               <option value="1cuota">1 Cuota</option>
               <option value="2cuota">2 Cuota</option>
@@ -57,13 +56,12 @@
             </select></div>  
        </div><br>
       <div> <button type="button"  class="pagar" id="pagar"> Pagar</button></div>
-      <h1 id="demo" class="demo"> La tarjeta es: </h1>
-      <h2 id="cardNumber1" class="cardNumber1">Numero de la tarjeta</h2>
+      <h1 id="demo" class="demo"></h1>
       </form>
-      
     </fieldset>
     </main>
-    <footer> 
+
+    <footer> <br>
       <div class="tarjetas">
         <img src="american.svg" alt="american" class="american">
         <img src="dinners.svg" alt="dinners" class="dinners">
