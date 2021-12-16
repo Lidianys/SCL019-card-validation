@@ -18,15 +18,17 @@ function getData(){
      alert("ERROR. Debe colocar  tres dígitos");
  }
 //Validar que escriban un nombre
-  if(name.length == 0){
+  if(name.length == ""){
     alert("ERROR. Debe colocar su nombre y apellido.");
  }
  if( isNaN(name) ) {
     //console.log("no es numero");
+    //analizar
   }
   else{
-      alert("ERROR. No puede colocar números.");
+      alert("ERROR. No puede colocar números en el campo de Nombre.");
   }
+
   if( name == null || name.length == 0 || /^\s+$/.test(name) ){  
     alert("ERROR. Debe colocar su nombre y apellido. ");
     }
