@@ -17,13 +17,18 @@
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^27.0.1",
     "gh-pages": "^3.1.0",
-    "htmlhint": "^0.9.9",
+    "htmlhint": "^1.0.0",
     "opener": "^1.5.1",
     "serve": "^13.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.4.0",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
     "jest": "^27.4.5"
   }
 }
