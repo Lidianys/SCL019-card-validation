@@ -48,13 +48,13 @@ const validator ={
  },
  //segunda propiedad de validator. Esta es igual a una funcion que va a convertir los numeros menos los utimos 4 en simbolo de número
  maskify: function marcar(cardNumber) { 
-  let numerosEnteros = new Array(16);
-  let x = 0;
+  //let numerosEnteros = new Array(16);
+  //let x = 0;
   
-  for (let i = cardNumber.length -1; i >= 0; i--){
+  for (let i = cardNumber.length ; i >= 0; i+ 1){
     let cardnumberinicial = 0 ;
     let cardNumberfinal = 0;
-    numerosEnteros[x] = cardNumber[i];
+    //numerosEnteros[x] = cardNumber[i];
     cardNumberfinal=  cardNumber.slice(-4);
     cardnumberinicial = cardNumber.slice(0, -4);
     cardnumberinicial = cardnumberinicial.replace(/1/gi, "#");

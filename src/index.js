@@ -5,10 +5,12 @@ function getData(){
  //console.log("estamos entrando a get data")
 
  //validar formulario
+ //declaracion de todas las variables
  const name = document.getElementById("name").value;
  //const date = document.getElementById("date").value;
  const cvv = document.getElementById("cvv").value;
  const cuotas = document.getElementById("cuotas").selectedIndex;
+ let cardNumber = document.getElementById("card").value;
 
  //validar que solo puedan poner 3 digitos
  if(cvv.length > 3){
@@ -18,9 +20,9 @@ function getData(){
      alert("ERROR. Debe colocar  tres dígitos");
  }
 //Validar que escriban un nombre
-  if(name.length == ""){
-    alert("ERROR. Debe colocar su nombre y apellido.");
- }
+  //if(name.length == ""){
+    //alert("ERROR. Debe colocar su nombre y apellido.");
+ //}
  if( isNaN(name) ) {
     //console.log("no es numero");
     //analizar
@@ -37,8 +39,6 @@ function getData(){
     alert("ERROR.Debe seleccionar una opción.");
     
   }
-  //declaracion de variable con el valor del número ingresado
- let cardNumber = document.getElementById("card").value;
 
  //Validar que solo se puedan colocar números y no espacios en blanco
  if( isNaN(cardNumber) ) {
@@ -49,7 +49,6 @@ function getData(){
   }
  //llamando a is valid para que se efecute en el Dom e indique si es valida o no la tarjeta
 let validation = validator.isValid(cardNumber);
- 
 if( validation === true){
  document.getElementById("demo").innerHTML = "La tarjeta es valida";
  }
