@@ -34,6 +34,6 @@ realizar la confirmación de pago.
  compañera.
 
 Mi página web final, con total funcionalidad.
-![Prototipo-papel](src/imagen de la pagina web.jpg.jpg)
+![Prototipo-papel](src/imagen de la pagina web.jpg)
 
  
