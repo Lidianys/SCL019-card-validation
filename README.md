@@ -21,6 +21,6 @@ realizar la confirmación de pago.
  y dar jerarquía a los elementos.
  
  En el proceso de prototipado realicé primeramente el siguiente boceto en papel el cual iteré con varios usuarios para obtener su feedback.
- ![Prototipo-papel](src/prototipopapel.jpeg)
+ ![Prototipo-papel](src/prototipopapel.jpg)
  
  
