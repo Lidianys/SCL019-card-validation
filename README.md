@@ -20,7 +20,17 @@ realizar la confirmación de pago.
  el botón pagar para destacarlo e insinuar su funcionalidad. Se usaron también los diferentes tamaños de letras diferenciar
  y dar jerarquía a los elementos.
  
- En el proceso de prototipado realicé primeramente el siguiente boceto en papel el cual iteré con varios usuarios para obtener su feedback.
- ![Prototipo-papel](src/prototipopapel.jpg)
+ Una vez analizado que deseaba realizar, pensar en los usuarios y en las necesidades del cliente,  decidi comenzar a realizar
+ mi prototipo en papel. Le pedí feedback a mi compañera Daniela Alcalá. Ella comprendió mi prototipo. Le comenté sobre los
+ los colores que deseaba usar y quedamos que una vez realizara mi diseño en Figma realizariamos feedback nuevamente. 
+  ![Prototipo-papel](src/prototipopapel.jpg)
  
+ Cuando realizé mi prototipo en Figma, pedi nuevamente su feedback.
+ ![Prototipo-papel](src/prototipoFigma.jpg)
+ Me recomendó cambiar el color de mi barra superior
+ por un color más parecido al del logo. Pude cambiar asi tambien el color del boton y agregarle borde, para dar la sensacíon 
+ de funcionalidad. Me sugirió quitarle la linea divisoria de la barra superior. Logré con su ayuda, crear una página más
+ limpia y armoniosa. Me sirvió de mucho el feedback ya que pude exponer mis ideas y recibir ayuda y la opinión de una
+ compañera.
+
  
