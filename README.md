@@ -33,4 +33,7 @@ realizar la confirmación de pago.
  limpia y armoniosa. Me sirvió de mucho el feedback ya que pude exponer mis ideas y recibir ayuda y la opinión de una
  compañera.
 
+Mi página web final, con total funcionalidad.
+![Prototipo-papel](src/imagen de la pagina web.jpg.jpg)
+
  
