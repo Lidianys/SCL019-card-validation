@@ -32,8 +32,9 @@ realizar la confirmación de pago.
  de funcionalidad. Me sugirió quitarle la linea divisoria de la barra superior. Logré con su ayuda, crear una página más
  limpia y armoniosa. Me sirvió de mucho el feedback ya que pude exponer mis ideas y recibir ayuda y la opinión de una
  compañera.
-
+ 
+ 
 Mi página web final, con total funcionalidad.
-![Prototipo-papel](src/web.jpg)
+![Prototipo-papel](src/prototipoFigma.jpg)
 
  
