@@ -26,7 +26,7 @@ realizar la confirmación de pago.
   ![Prototipo-papel](src/prototipopapel.jpg)
  
  Cuando realizé mi prototipo en Figma, pedi nuevamente su feedback.
- ![Prototipo-papel](src/prototipoFigma.jpg)
+ ![PrototipoFigma](src/prototipoFigma.jpg)
  Me recomendó cambiar el color de mi barra superior
  por un color más parecido al del logo. Pude cambiar asi tambien el color del boton y agregarle borde, para dar la sensacíon 
  de funcionalidad. Me sugirió quitarle la linea divisoria de la barra superior. Logré con su ayuda, crear una página más
@@ -36,6 +36,6 @@ realizar la confirmación de pago.
  
 Mi página web final, con total funcionalidad.
 
-![Prototipo-papel](src/imagen de la pagina web.jpg)
+![Página final](src/imagen de la pagina web.jpg)
 
  
